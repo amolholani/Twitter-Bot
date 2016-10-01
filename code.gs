@@ -31,10 +31,10 @@ function sendFromSpreadsheet(){
 function sendMsg(user, tweet) {
   
   var twitterKeys= {
-    TWITTER_CONSUMER_KEY: "ZxkdSXMskCrWkXjWHmZeJaF0B",
-    TWITTER_CONSUMER_SECRET: "8qIlQaRk3S8CmNBStVr1Q1Ect6gSjn7ciHMZoamvSEG2t9XXCR",
-    TWITTER_ACCESS_TOKEN: "777902369854124032-iFrQMrzak5KXgZ09Rb5bRiT1hr6aV4v",
-    TWITTER_ACCESS_SECRET: "TWHejuQT0bZJN4MCD37r6Y5R0E8s8hAlHev1MMrtazIFh"    
+    TWITTER_CONSUMER_KEY: "<<consumer_key>>",
+    TWITTER_CONSUMER_SECRET: "<<consumer_secret>>",
+    TWITTER_ACCESS_TOKEN: "<<access_token>>",
+    TWITTER_ACCESS_SECRET: "<<access_secret>>"    
   };
   var props = PropertiesService.getScriptProperties();
   props.setProperties(twitterKeys);
